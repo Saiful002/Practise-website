@@ -10,6 +10,7 @@ header{
 .flexible-part{
     display: flex;
     background-image: url(Main-photo/);
+   
 }
 h1{
     font-size: 50px;
@@ -18,6 +19,11 @@ h1{
     width: 50%;
     padding-left: 200px;
     padding-top: 100px;
+    background-image: url(Edited-photo/5356171-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right:250px ;
+    margin: 0px;
 }
 .text-sector p{
     font-size: 20px;
@@ -25,8 +31,8 @@ h1{
     text-align: justify;
 }
 .submit-sector{
-    padding-left: 425px;
-   text-align: center;
+    padding-top: 50px;
+  
 }
 .link-button{
     text-decoration: none;
@@ -38,12 +44,20 @@ h1{
 .log-button{
     color: white;
     background-image: linear-gradient(midnightblue,black );
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
 }
 .cancel-button{
     color: white;
     background-image: linear-gradient(firebrick, DarkRed);
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
 }
 .search-button{
     color: white;
     background-image: linear-gradient(midnightblue,black );
+    height: 25px;
+    width: 100px;
 }
