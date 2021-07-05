@@ -7,15 +7,13 @@ header{
     height: 50px;
     padding-top: 30px;
 }
-.flexible-part{
-    display: flex;
-    background-image: url(Main-photo/);
-   
+.flexible-part-1{
+    display: flex;  
 }
 h1{
     font-size: 50px;
 }
-.text-sector{
+.text-sector-1{
     width: 50%;
     padding-left: 200px;
     padding-top: 100px;
@@ -25,7 +23,7 @@ h1{
     padding-right:250px ;
     margin: 0px;
 }
-.text-sector p{
+.text-sector-1 p{
     font-size: 20px;
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: justify;
@@ -34,7 +32,7 @@ h1{
     padding-top: 50px;
   
 }
-.link-button{
+.link-button-1{
     text-decoration: none;
     background-image: linear-gradient(midnightblue, black);
     color: white;
@@ -60,4 +58,35 @@ h1{
     background-image: linear-gradient(midnightblue,black );
     height: 25px;
     width: 100px;
+}
+.text-sector-2{
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 225px;
+    background-image: url(Edited-photo/templet-1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: left; 
+    margin: 0px;
+}
+.flexible-part-2{
+    display: flex;
+    padding-top:150px;
+}
+#car{
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 90px;
+}
+.text-sector-2 p{
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: justify;
+}
+.link-button-2{
+    text-decoration: none;
+    background-image: linear-gradient(midnightblue, black);
+    color: white;
+    padding:5px 20px;
+    border-radius: 5px;
+    
 }
