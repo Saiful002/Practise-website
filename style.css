@@ -1,3 +1,49 @@
 body{
     font-family: 'PT Serif', serif;
+    background-image: url(Main-photo/5631533.jpg);
+}
+header{
+    text-align: center;
+    height: 50px;
+    padding-top: 30px;
+}
+.flexible-part{
+    display: flex;
+    background-image: url(Main-photo/);
+}
+h1{
+    font-size: 50px;
+}
+.text-sector{
+    width: 50%;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.text-sector p{
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: justify;
+}
+.submit-sector{
+    padding-left: 425px;
+   text-align: center;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(midnightblue, black);
+    color: white;
+    padding:5px;
+    border-radius: 5px;
+}
+.log-button{
+    color: white;
+    background-image: linear-gradient(midnightblue,black );
+}
+.cancel-button{
+    color: white;
+    background-image: linear-gradient(firebrick, DarkRed);
+}
+.search-button{
+    color: white;
+    background-image: linear-gradient(midnightblue,black );
 }
